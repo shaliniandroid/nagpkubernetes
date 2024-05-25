@@ -1,5 +1,4 @@
-# Article Management application is simple app contains 
-# CRUD APIs to GET, PUT, POST and DELETE the article
+# Article Management application is simple app contains CRUD APIs to GET, PUT, POST and DELETE the article
 
 ## In the application there CRUD api's please use the below CURLs to access those.
 
