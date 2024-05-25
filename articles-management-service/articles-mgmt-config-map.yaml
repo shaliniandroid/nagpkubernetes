@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: database-config
+  labels:
+    name: database-config
+    app: articles-management
+  namespace: development
+data:
+  NODE_ENV: development
+  MYSQL_HOST: 10.68.30.147
+  MYSQL_DATABASE: articles-management-db
+  MYSQL_USER: root
+  PAGE_SIZE: '10'

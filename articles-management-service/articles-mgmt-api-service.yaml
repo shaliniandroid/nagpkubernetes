@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: articles-mgmt-api-service
+  labels:
+    name: articles-mgmt-api-service
+    app: articles-management
+  namespace: development
+spec:
+  type: LoadBalancer
+  selector:
+    name: articles-mgmt-api-pod
+    app: articles-management
+  ports:
+    - name: http
+      port: 5000
+      targetPort: 5000
