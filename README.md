@@ -2,26 +2,28 @@
 
 ## In the application there CRUD api's please use the below CURLs to access those.
 
-Note: Change localhost to server ip if access from server (34.71.11.146)
+### Code Repo : https://github.com/shaliniandroid/nagpkubernetes
+### Docker Hub URL : https://hub.docker.com/r/shalinipuri/articlesmanagement/tags
+### Service API Point : http://34.71.11.146:5000/
 
+-
 - Get All articles
 
 ```
-curl --location --request GET 'http://localhost:5000/articles?pageNo=1' | json_pp
+GET http://34.71.11.146:5000/articles?pageNo=1
 ```
 
 - Get article by id
 
 ```
-curl --location --request GET 'http://localhost:5000/articles/3'
+- GET http://34.71.11.146:5000/articles/3
 ```
 
 - Create article
 
 ```
-curl --location --request POST 'http://localhost:5000/articles' \
---header 'Content-Type: application/json' \
---data-raw '{
+POST http://34.71.11.146:5000/articles
+Body raw : {
     "title": "Make Docker image",
     "author":"Shalini",
     "language":"English"
@@ -31,9 +33,8 @@ curl --location --request POST 'http://localhost:5000/articles' \
 - Update article
 
 ```
-curl --location --request PUT 'http://localhost:5000/articles/5' \
---header 'Content-Type: application/json' \
---data-raw '{
+PUT http://34.71.11.146:5000/articles/5
+Body raw '{
     "language":"English"
 }'
 ```
@@ -41,6 +42,6 @@ curl --location --request PUT 'http://localhost:5000/articles/5' \
 - Delete article
 
 ```
-curl --location --request DELETE 'http://localhost:5000/articles/3'
+DELETE http://34.71.11.146:5000/articles/3
 ```
 
