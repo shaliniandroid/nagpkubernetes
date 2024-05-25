@@ -6,7 +6,6 @@
 ### Docker Hub URL : https://hub.docker.com/r/shalinipuri/articlesmanagement/tags
 ### Service API Point : http://34.71.11.146:5000/
 
--
 - Get All articles
 
 ```
