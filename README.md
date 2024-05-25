@@ -2,7 +2,7 @@
 
 ## In the application there CRUD api's please use the below CURLs to access those.
 
-Note: Change localhost to server ip if access from server
+Note: Change localhost to server ip if access from server (34.71.11.146)
 
 - Get All articles
 
