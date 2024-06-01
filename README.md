@@ -5,6 +5,7 @@
 ### Code Repo : https://github.com/shaliniandroid/nagpkubernetes
 ### Docker Hub URL : https://hub.docker.com/r/shalinipuri/articlesmanagement/tags
 ### Service API Point : http://35.223.153.230:5000/
+### Video Recording Url : https://drive.google.com/file/d/1-1lgb-6HT2qtmYvlPaXBuD-x1a0sHozt/view?usp=drivesdk
 
 - Get All articles
 
