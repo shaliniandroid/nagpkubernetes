@@ -4,24 +4,24 @@
 
 ### Code Repo : https://github.com/shaliniandroid/nagpkubernetes
 ### Docker Hub URL : https://hub.docker.com/r/shalinipuri/articlesmanagement/tags
-### Service API Point : http://34.71.11.146:5000/
+### Service API Point : http://35.223.153.230:5000/
 
 - Get All articles
 
 ```
-GET http://34.71.11.146:5000/articles?pageNo=1
+GET  http://35.223.153.230:5000/articles?pageNo=1
 ```
 
 - Get article by id
 
 ```
-- GET http://34.71.11.146:5000/articles/3
+- GET  http://35.223.153.230:5000/articles/3
 ```
 
 - Create article
 
 ```
-POST http://34.71.11.146:5000/articles
+POST  http://35.223.153.230:5000/articles
 Body raw : {
     "title": "Make Docker image",
     "author":"Shalini",
@@ -32,7 +32,7 @@ Body raw : {
 - Update article
 
 ```
-PUT http://34.71.11.146:5000/articles/5
+PUT  http://35.223.153.230:5000/articles/5
 Body raw '{
     "language":"English"
 }'
